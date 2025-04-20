@@ -22,7 +22,7 @@ spec:
         role: api
     spec:
       imagePullSecrets:
-      - name: ecr-registry-secret
+      - name: my-dockerhub-secret
       containers:
       - name: api
         image: larafaakram/node_backend_14:16
